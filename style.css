@@ -1,0 +1,230 @@
+/*
+Theme Name: kitchenandbath
+Author: Azizul Haque
+Author URI: https://keendevs.com/
+Description: WordPress theme developed for kitchenandbath
+Version: 1.0.0
+Text Domain: kitchenandbath
+*/
+
+
+/* Umber grig plugin css overright */
+a{
+    color: #57BA46;
+}
+a:hover{
+    color: #48993A
+}
+div.uber-grid-filters {
+    margin-bottom: 30px !important;
+}
+
+div.uber-grid-filters > div a {
+	font-size: 14px !important;
+	border-width: 2px !important;
+	font-family: 'GothamHTF' !important;
+	font-weight: 500 !important;
+}
+
+div.uber-grid-filters > div a, div.uber-grid-pagination > div a {
+ padding: 0.5em 0.5em !important;
+}
+
+
+/* Align css */
+img.alignright { 
+    float: right; 
+    margin: 0 0 1em 1em; 
+}
+img.alignleft { 
+    float: left; 
+    margin: 0 1em 1em 0; 
+}
+img.aligncenter { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.alignright { 
+    float: right; 
+}
+.alignleft { 
+    float: left; 
+}
+.aligncenter { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+/*banner*/
+.banner_content h2 {
+    color: #fff;
+    z-index: 1;
+    font-size: 42px;
+}
+.banner_content{
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+.banner_content:before {
+    position: absolute;
+    content: '';
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+
+.menu_top ul li span{
+    font-family: 'GothamHTF';
+    font-weight: 400;
+}
+.call_to_action h2{
+    margin: 10px 0px 10px;
+}
+
+@media (max-width:991px){
+    .call_to_action .text-right{
+        text-align: center;   
+    }
+    .call_to_action h2{
+        text-align: center;
+    }
+}
+.call_to_action a.btn{
+    margin-top: 5px;
+}
+.call_to_action a.phone{
+    font-weight: bold;
+}
+.uber-grid-edit-wrapper {
+    display: none !important;
+}
+
+.products{
+    padding: 30px 0;
+}
+.products h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+.products h3 {
+    margin: 0;
+    color: #fff;
+}
+#dealer img {
+    margin: 0 auto;
+}
+.contact_us_area p{
+    line-height: 28px;
+}
+.gform_wrapper .top_label .gfield_label{
+    display: none !important;
+}
+body .gform_wrapper ul li.gfield{
+    margin-top: 0 !important;
+}
+.gform_wrapper{
+    margin: 0 !important;
+}
+body .gform_wrapper .top_label div.ginput_container{
+    margin: 0 !important;
+}
+.gform_wrapper .gform_footer {
+    padding: 0px 0 10px !important;
+    text-align: right;
+    margin: 0 !important;
+}
+.gform_wrapper .gform_footer input[type=submit]:hover{
+        background-color: #48993A !important;
+    color: #fff;
+}
+.gform_wrapper .gform_footer input[type=submit]{
+    margin-right: 0 !important;
+    background: #57BA46 !important;
+    color: #fff;
+    border-radius: 5px !important;
+}
+/*about_page*/
+.about_banner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 0.00% 82.56%;
+    background-color: transparent;
+    background-size: cover;
+    height: 460px;
+    position: relative;
+}
+.about_banner:before{
+    position: absolute;
+    content: '';
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+
+}
+.page_title {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+.about_banner h3{
+    color: #fff;
+}
+.separator.bottom.big.text-center {
+    margin-top: 40px;
+}
+.page_single .gform_wrapper textarea.medium {
+    height: 250px;
+}
+.page_single h3{
+    text-align: center;
+}
+
+.dropdown-menu>li>a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #57BA46;
+    outline: 0;
+}
+.dropdown-menu>.active>a{
+    color: #000;
+    text-decoration: none;
+    background-color: #E7E7E7;
+    outline: 0;
+}
+.dropdown-menu>.active>a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #57BA46;
+    outline: 0;
+}
+.navbar-default .navbar-nav li.dropdown:hover .dropdown-menu{
+    display: inherit;
+}
+.dropdown-menu{
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .contact_right{
+        padding: 0 25px;
+    }
+}
