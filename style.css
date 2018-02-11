@@ -228,3 +228,6 @@ body .gform_wrapper .top_label div.ginput_container{
         padding: 0 25px;
     }
 }
+#maps{
+    height: 500px;
+}
